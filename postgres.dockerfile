@@ -8,5 +8,5 @@ ENV username="kellycsantos"
 ENV password="dlag(j[&<;NC2o0;]}<e/UeDO)-uS"
 RUN mkdir /raiz
 
-COPY libs/requirements.txt /
+COPY libs/requirements.txt /raiz
 RUN pip install -r /raiz/requirements.txt
